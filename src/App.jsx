@@ -191,9 +191,9 @@ const LabsLandingPage = () => {
       description: "State-of-the-art facility for studying and practicing various manufacturing processes and techniques with modern machinery.",
       features: ["Advanced CNC", "3D Printers", "Process Planning Tools"],
       images: [
-        `assets/manufacturing_science_lab_1.jpg`,
-        `assets/manufacturing_science_lab_2.jpg`,
-        `assets/manufacturing_science_lab_3.jpg`
+        `assets/manufacturing_science_lab_1.png`,
+        `assets/manufacturing_science_lab_2.png`,
+        `assets/manufacturing_science_lab_3.png`
       ]
     },
     {
