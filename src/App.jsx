@@ -27,21 +27,25 @@ const ImageSlider = ({ images, labName }) => {
       />
       
       {/* Navigation arrows */}
-      <button 
-        onClick={goToPrevious}
-        className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-colors duration-200"
-        aria-label="Previous image"
-      >
-        <ChevronLeft size={20} />
-      </button>
-      
-      <button 
-        onClick={goToNext}
-        className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-colors duration-200"
-        aria-label="Next image"
-      >
-        <ChevronRight size={20} />
-      </button>
+      {images.length > 1 && (
+        <>
+          <button 
+            onClick={goToPrevious}
+            className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-colors duration-200"
+            aria-label="Previous image"
+          >
+            <ChevronLeft size={20} />
+          </button>
+          
+          <button 
+            onClick={goToNext}
+            className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-colors duration-200"
+            aria-label="Next image"
+          >
+            <ChevronRight size={20} />
+          </button>
+        </>
+      )}
 
       {/* Navigation dots */}
       <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex gap-2">
