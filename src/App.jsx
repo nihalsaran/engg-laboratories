@@ -67,9 +67,9 @@ const LabsLandingPage = () => {
     //   description: "A comprehensive facility equipped with various machine tools, equipment, and workstations for mechanical fabrication, assembly, and hands-on training in manufacturing processes.",
     //   features: ["CNC Machines", "Lathe Operations", "Welding Station"],
     //   images: [
-    //     `src/assets/mechanical_workshop_1.jpg`,
-    //     `src/assets/mechanical_workshop_2.jpg`,
-    //     `src/assets/mechanical_workshop_3.jpg`
+    //     `public/assets/mechanical_workshop_1.jpg`,
+    //     `public/assets/mechanical_workshop_2.jpg`,
+    //     `public/assets/mechanical_workshop_3.jpg`
     //   ]
     // },
     {
@@ -77,19 +77,19 @@ const LabsLandingPage = () => {
       description: "Advanced laboratory for analyzing material properties through various mechanical tests, featuring equipment for tensile, compression, hardness, and impact testing.",
       features: ["Universal Testing Machine", "Hardness Testers", "Impact Testing Equipment"],
       images: [
-        `src/assets/material_testing_lab_1.jpg`,
-        `src/assets/material_testing_lab_2.png`,
-        `src/assets/material_testing_lab_3.png`,
-        `src/assets/material_testing_lab_4.png`,
-        `src/assets/material_testing_lab_5.png`,
-        `src/assets/material_testing_lab_6.png`,
-        `src/assets/material_testing_lab_7.png`,
-        `src/assets/material_testing_lab_8.png`,
-        `src/assets/material_testing_lab_9.png`,
-        `src/assets/material_testing_lab_10.png`,
-        `src/assets/material_testing_lab_11.png`,
-        `src/assets/material_testing_lab_12.png`,
-        `src/assets/material_testing_lab_13.png`
+        `public/assets/material_testing_lab_1.jpg`,
+        `public/assets/material_testing_lab_2.png`,
+        `public/assets/material_testing_lab_3.png`,
+        `public/assets/material_testing_lab_4.png`,
+        `public/assets/material_testing_lab_5.png`,
+        `public/assets/material_testing_lab_6.png`,
+        `public/assets/material_testing_lab_7.png`,
+        `public/assets/material_testing_lab_8.png`,
+        `public/assets/material_testing_lab_9.png`,
+        `public/assets/material_testing_lab_10.png`,
+        `public/assets/material_testing_lab_11.png`,
+        `public/assets/material_testing_lab_12.png`,
+        `public/assets/material_testing_lab_13.png`
       ]
     },
     // {
@@ -97,9 +97,9 @@ const LabsLandingPage = () => {
     //   description: "Dedicated space for studying mechanical systems dynamics, kinematics, and mechanism analysis with various demonstration units and experimental setups.",
     //   features: ["Gear Trains", "Cam Analysis Units", "Balancing Equipment"],
     //   images: [
-    //     `src/assets/mechanics_of_machines_lab_1.jpg`,
-    //     `src/assets/mechanics_of_machines_lab_2.jpg`,
-    //     `src/assets/mechanics_of_machines_lab_3.jpg`
+    //     `public/assets/mechanics_of_machines_lab_1.jpg`,
+    //     `public/assets/mechanics_of_machines_lab_2.jpg`,
+    //     `public/assets/mechanics_of_machines_lab_3.jpg`
     //   ]
     // },
     {
@@ -107,7 +107,7 @@ const LabsLandingPage = () => {
       description: "Specialized facility for conducting experiments related to various modes of heat transfer, featuring modern equipment for thermal analysis and measurement.",
       features: ["Conduction Apparatus", "Convection Setup", "Radiation Units"],
       images: [
-        `src/assets/heat_transfer_lab_1.jpg`
+        `public/assets/heat_transfer_lab_1.jpg`
       ]
     },
     {
@@ -115,7 +115,7 @@ const LabsLandingPage = () => {
       description: "High-precision measurement facility equipped with advanced instruments for dimensional measurement, calibration, and quality control procedures.",
       features: ["CMM Machine", "Surface Roughness Tester", "Precision Gauges"],
       images: [
-        `src/assets/metrology_lab_1.jpg`,
+        `public/assets/metrology_lab_1.jpg`,
       ]
     },
     {
@@ -123,14 +123,14 @@ const LabsLandingPage = () => {
       description: "Well-equipped laboratory for studying fluid power systems, featuring various hydraulic circuits, components, and test benches.",
       features: ["Hydraulic Trainers", "Flow Measurement", "Pressure Testing"],
       images: [
-        `src/assets/hydraulics_lab_1.jpg`,
-        `src/assets/hydraulics_lab_2.jpg`,
-        `src/assets/hydraulics_lab_3.jpg`,
-        `src/assets/hydraulics_lab_4.jpg`,
-        `src/assets/hydraulics_lab_5.jpg`,
-        `src/assets/hydraulics_lab_6.jpg`,
-        `src/assets/hydraulics_lab_7.jpg`,
-        `src/assets/hydraulics_lab_8.jpg`,
+        `public/assets/hydraulics_lab_1.jpg`,
+        `public/assets/hydraulics_lab_2.jpg`,
+        `public/assets/hydraulics_lab_3.jpg`,
+        `public/assets/hydraulics_lab_4.jpg`,
+        `public/assets/hydraulics_lab_5.jpg`,
+        `public/assets/hydraulics_lab_6.jpg`,
+        `public/assets/hydraulics_lab_7.jpg`,
+        `public/assets/hydraulics_lab_8.jpg`,
       ]
     },
     {
@@ -138,14 +138,14 @@ const LabsLandingPage = () => {
       description: "Comprehensive facility for studying fluid behavior and flow characteristics through various experimental setups and measurement systems.",
       features: ["Flow Visualization", "Pipe Networks", "Pump Test Rigs"],
       images: [
-        `src/assets/fluid_mechanics_lab_1.jpg`,
-        `src/assets/fluid_mechanics_lab_2.jpg`,
-        `src/assets/fluid_mechanics_lab_3.jpg`,
-        `src/assets/fluid_mechanics_lab_4.jpg`,
-        `src/assets/fluid_mechanics_lab_5.jpg`,
-        `src/assets/fluid_mechanics_lab_6.jpg`,
-        `src/assets/fluid_mechanics_lab_7.jpg`,
-        `src/assets/fluid_mechanics_lab_8.jpg`,
+        `public/assets/fluid_mechanics_lab_1.jpg`,
+        `public/assets/fluid_mechanics_lab_2.jpg`,
+        `public/assets/fluid_mechanics_lab_3.jpg`,
+        `public/assets/fluid_mechanics_lab_4.jpg`,
+        `public/assets/fluid_mechanics_lab_5.jpg`,
+        `public/assets/fluid_mechanics_lab_6.jpg`,
+        `public/assets/fluid_mechanics_lab_7.jpg`,
+        `public/assets/fluid_mechanics_lab_8.jpg`,
       ]
     },
     {
@@ -153,19 +153,19 @@ const LabsLandingPage = () => {
       description: "Modern facility featuring various automotive systems and components for hands-on learning and testing of vehicle mechanics and performance.",
       features: ["Engine Test Beds", "Transmission Systems", "Diagnostic Equipment"],
       images: [
-        `src/assets/automobile_lab_1.jpg`,
-        `src/assets/automobile_lab_2.jpg`,
-        `src/assets/automobile_lab_3.jpg`,
-        `src/assets/automobile_lab_4.jpg`, 
-        `src/assets/automobile_lab_5.jpg`,
-        `src/assets/automobile_lab_6.jpg`,
-        `src/assets/automobile_lab_7.jpg`,
-        `src/assets/automobile_lab_8.jpg`,
-        `src/assets/automobile_lab_9.jpg`,
-        `src/assets/automobile_lab_10.jpg`,
-        `src/assets/automobile_lab_11.jpg`,
-        `src/assets/automobile_lab_12.jpg`,
-        `src/assets/automobile_lab_13.jpg`
+        `public/assets/automobile_lab_1.jpg`,
+        `public/assets/automobile_lab_2.jpg`,
+        `public/assets/automobile_lab_3.jpg`,
+        `public/assets/automobile_lab_4.jpg`, 
+        `public/assets/automobile_lab_5.jpg`,
+        `public/assets/automobile_lab_6.jpg`,
+        `public/assets/automobile_lab_7.jpg`,
+        `public/assets/automobile_lab_8.jpg`,
+        `public/assets/automobile_lab_9.jpg`,
+        `public/assets/automobile_lab_10.jpg`,
+        `public/assets/automobile_lab_11.jpg`,
+        `public/assets/automobile_lab_12.jpg`,
+        `public/assets/automobile_lab_13.jpg`
       ]
     },
     {
@@ -173,7 +173,7 @@ const LabsLandingPage = () => {
       description: "Advanced laboratory for studying thermodynamic principles and heat engines, equipped with various thermal systems and measurement devices.",
       features: ["Steam Generators", "IC Engines", "Heat Exchangers"],
       images: [
-        `src/assets/thermal_lab_1.jpg`
+        `public/assets/thermal_lab_1.jpg`
       ]
     },
     // {
@@ -181,9 +181,9 @@ const LabsLandingPage = () => {
     //   description: "Specialized facility for studying material structures, properties, and behavior at microscopic levels with advanced analysis equipment.",
     //   features: ["Microscopes", "Sample Preparation", "Testing Equipment"],
     //   images: [
-    //     `src/assets/material_science_lab_1.jpg`,
-    //     `src/assets/material_science_lab_2.jpg`,
-    //     `src/assets/material_science_lab_3.jpg`
+    //     `public/assets/material_science_lab_1.jpg`,
+    //     `public/assets/material_science_lab_2.jpg`,
+    //     `public/assets/material_science_lab_3.jpg`
     //   ]
     // },
     {
@@ -191,9 +191,9 @@ const LabsLandingPage = () => {
       description: "State-of-the-art facility for studying and practicing various manufacturing processes and techniques with modern machinery.",
       features: ["Advanced CNC", "3D Printers", "Process Planning Tools"],
       images: [
-        `src/assets/manufacturing_science_lab_1.jpg`,
-        `src/assets/manufacturing_science_lab_2.jpg`,
-        `src/assets/manufacturing_science_lab_3.jpg`
+        `public/assets/manufacturing_science_lab_1.jpg`,
+        `public/assets/manufacturing_science_lab_2.jpg`,
+        `public/assets/manufacturing_science_lab_3.jpg`
       ]
     },
     {
@@ -201,15 +201,15 @@ const LabsLandingPage = () => {
       description: "Comprehensive lab for studying HVAC systems, refrigeration cycles, and thermal comfort analysis with modern equipment.",
       features: ["AC Units", "Refrigeration Systems", "Psychrometric Chamber"],
       images: [
-        `src/assets/refrigeration_and_air_conditioning_lab_1.jpg`,
-        `src/assets/refrigeration_and_air_conditioning_lab_2.jpg`,
-        `src/assets/refrigeration_and_air_conditioning_lab_3.jpg`,
-        `src/assets/refrigeration_and_air_conditioning_lab_4.jpg`,
-        `src/assets/refrigeration_and_air_conditioning_lab_5.jpg`,
-        `src/assets/refrigeration_and_air_conditioning_lab_6.jpg`,
-        `src/assets/refrigeration_and_air_conditioning_lab_7.jpg`,
-        `src/assets/refrigeration_and_air_conditioning_lab_8.jpg`,
-        `src/assets/refrigeration_and_air_conditioning_lab_9.jpg`
+        `public/assets/refrigeration_and_air_conditioning_lab_1.jpg`,
+        `public/assets/refrigeration_and_air_conditioning_lab_2.jpg`,
+        `public/assets/refrigeration_and_air_conditioning_lab_3.jpg`,
+        `public/assets/refrigeration_and_air_conditioning_lab_4.jpg`,
+        `public/assets/refrigeration_and_air_conditioning_lab_5.jpg`,
+        `public/assets/refrigeration_and_air_conditioning_lab_6.jpg`,
+        `public/assets/refrigeration_and_air_conditioning_lab_7.jpg`,
+        `public/assets/refrigeration_and_air_conditioning_lab_8.jpg`,
+        `public/assets/refrigeration_and_air_conditioning_lab_9.jpg`
       ]
     },
     // {
@@ -217,9 +217,9 @@ const LabsLandingPage = () => {
     //   description: "Dedicated space for learning statistical quality control methods and industrial engineering principles with various analysis tools.",
     //   features: ["Quality Control Tools", "Work Study Equipment", "Process Analysis Software"],
     //   images: [
-    //     `src/assets/sqc_ie_lab_1.jpg`,
-    //     `src/assets/sqc_ie_lab_2.jpg`,
-    //     `src/assets/sqc_ie_lab_3.jpg`
+    //     `public/assets/sqc_ie_lab_1.jpg`,
+    //     `public/assets/sqc_ie_lab_2.jpg`,
+    //     `public/assets/sqc_ie_lab_3.jpg`
     //   ]
     // }
   ];
